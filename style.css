@@ -1,16 +1,32 @@
 body{
     background-color: #042940; 
+   
 }
 main{
     
     background-color: #042940; 
     width: 1280px;
-
     margin: 0 auto;
+}
+header{
+    width: 1280px;
+    
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+h2{
+    color: #DBF227;
 }
 a{
     text-decoration: none;
-    color: ;
+   
 }
 p{
     color: #D6D58E;
@@ -19,6 +35,19 @@ p{
 ul{
     list-style-type: none;
 }
-li{
+div{
+    display: flex;
+}
+footer{
+  
+    background-color: #005C53;
     
+    /* justify-content: center; */
+     margin: 0 auto;  
+}
+footer > ul{
+    margin: 0 auto;
+}
+footer > li{
+    margin: 0 auto;
 }
