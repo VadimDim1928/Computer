@@ -7,6 +7,7 @@ main{
     background-color: #042940; 
     width: 1280px;
     margin: 0 auto;
+    
 }
 header{
     width: 1280px;
@@ -21,12 +22,19 @@ nav ul{
     color: #DBF227;
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
+    margin: 0;
 
        
 }
 nav a{
     color: #DBF227;
-    padding: 30px;
+    padding: 25px;
+}
+nav a:hover{
+    color: aqua;
+}
+nav a:visited{
+    color: #DBF227;
 }
 
 h1{
@@ -36,22 +44,43 @@ h1{
     color: #DBF227;
 
     position: relative;
-    bottom:  700px;
+    bottom:  635px;
     left: 150px;
+    margin: 0;
+    padding: 0;
 
 }
 
 
 h2{
     color: #DBF227;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px ;
+}
+h2:hover{
+    color: hotpink;
 }
 .text{
     display: block;
+    padding-right: 50px;
 }
-.image{
-    
+.twitter-icon{
+    fill: lightblue;
+}
 
+.twitter-icon:hover{
+    fill: linear-gradient(to top left, powderblue, pink);
 }
+
+
+.text p{
+    color: #D6D58E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px ;
+}
+
 a{
     text-decoration: none;
    
@@ -65,20 +94,202 @@ ul{
 }
 div{
     display: flex;
+    /* padding-right: 25px; */
+    padding-bottom: 50px;
+    
 }
+
 footer{
-    
+  
     background-color: #005C53;
-    display: block;
-    
-   
-   
+    font-family: 'Montserrat', sans-serif;
+
 }
 footer > ul{
-    max-width:  1280px;
+    
     margin: 0 auto;
+    color: #D6D58E;
+    font-size: 24px;
+    
+    
 }
-footer > li{
+footer> li{
     width: 1280px;
     margin: 0 auto;
+    color: #D6D58E;
+    
+    
 }
+
+@media screen and (max-width: 1000px) {
+    main{
+    
+        background-color: #042940; 
+        max-width: 768px;
+        margin: 0 auto;
+        
+    }
+    header{
+        width: 768px;
+        margin: 0 auto;
+        
+    }
+    nav img{
+        width: 50px;
+    }
+    nav ul{
+        font-size: 16px;
+        margin: 0;
+    }
+    nav a{
+        color: #DBF227;
+        padding: 20px;
+    }
+    
+    nav a:visited{
+        color: #DBF227;
+    }
+    main img{
+        width: 100%;
+    }
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        color: #DBF227;
+    
+        position: relative;
+        bottom:  350px;
+        left: 150px;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    
+    h2{
+        color: #DBF227;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 28px ;
+    }
+    .text{
+        display: block;
+        padding-right: 50px;
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 700px;
+    }
+    
+    
+    .text p{
+        color: #D6D58E;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 20px ;
+        flex-wrap: wrap;
+    }
+    
+    div{
+        display: flex;
+        /* padding-right: 25px; */
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+        
+    }
+    footer > ul{
+    
+        margin: 0 auto;
+        color: #D6D58E;
+        font-size: 14px;
+      
+    }
+}
+@media screen and (max-width: 500px){
+    main{
+    
+        background-color: #042940; 
+        max-width: 350px;
+        margin: 0 auto;
+        
+    }
+    header{
+        width: 350px;
+        
+        margin: 0 auto;
+        
+    }
+    nav img{
+        width: 25px;
+    }
+    nav ul{
+        font-size: 10px;
+        margin: 0 ;
+    }
+    nav a{
+        color: #DBF227;
+        padding: 5px;
+    }
+    
+    nav a:visited{
+        color: #DBF227;
+    }
+    main img{
+        width: 100%;
+    }
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        color: #DBF227;
+    
+        position: relative;
+        bottom:  160px;
+        left: 50px;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    
+    h2{
+        color: #DBF227;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 20px ;
+    }
+    .text{
+        display: block;
+        padding-right: 50px;
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 350px;
+    }
+    
+    
+    .text p{
+        color: #D6D58E;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 20px ;
+        flex-wrap: wrap;
+    }
+    
+    div{
+        display: flex;
+        /* padding-right: 25px; */
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+        
+    }
+    footer > ul{
+    
+        margin: 0 auto;
+        color: #D6D58E;
+        font-size: 14px;
+      
+    }
+}
+
